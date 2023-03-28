@@ -11,7 +11,6 @@ public class Emp {
 	static double calcHra;
 	
 	
-	
 	public Emp() {
 		this.empId = empId;
 		this.designation = designation;
@@ -20,13 +19,7 @@ public class Emp {
 		double calcHra;
 	}
 	
-
-
-
-	
-	
-		
-	public static void printDet(){
+        public static void printDet(){
 		System.out.println(" ------Employee Details-------");
 		//System.out.println();//
 		System.out.println("Employee ID: " + empId	);
@@ -40,14 +33,6 @@ public class Emp {
 	public void calculateHRA(){
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
 	public int getEmpId() {
 		return empId;
 	}
