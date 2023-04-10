@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    <bean name = "hello" class = "com.first.one.HelloWorld.Greeting"> </bean>
+    <bean name = "emp"  class = "com.first.one.HelloWorld.Employee" p:id="1004" p:name="angel"   ></bean>
+    <bean name = "person"  class ="com.first.one.HelloWorld.Person">
+    <property name= "id" value = "100"></property>
+    <property name ="name" value="Booboo"></property>
+    <property name="age" value="11"></property>
+    
+    </bean>
+    </beans>
