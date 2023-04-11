@@ -9,7 +9,10 @@ public class Test {
 
 		ApplicationContext context = new ClassPathXmlApplicationContext("config3.xml");
 		Customer c=(Customer)context.getBean("customer");
-		System.out.println(c);
+		System.out.println(c.hashCode());
+		
+		Customer c2=(Customer)context.getBean("customer");
+		System.out.println(c2.hashCode());
 
 	}
 

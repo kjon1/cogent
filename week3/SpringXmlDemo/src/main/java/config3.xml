@@ -11,7 +11,7 @@
 	<bean name = "medicine " class = "com.first.one.check.Medicine" p:number="3050" p:name="Penicillin"></bean>
 	<bean class="org.springframework.beans.factory.annotation.RequiredAnnotationBeanPostProcessor"></bean>
 	
-	<bean name="customer" class="com.first.one.innerBean.Customer" p:custNo="1000">
+	<bean name="customer" class="com.first.one.innerBean.Customer" p:custNo="1000" scope="prototype">
 	<property name ="address" > 
 	<bean name="address" class="com.first.one.innerBean.Address" p:streetNo="45" p:city="Las Vega" p:state="Nevada">
 	</bean>
