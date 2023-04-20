@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            item page
+        </title>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <th>Item No</th>
+                <th>Item Name</th>
+                <th>Item Price</th>
+                <th>Picture</th>
+            </tr>
+            <tr>
+                <th>{{itemNo}}</th>
+                <th>{{itemName}}</th>
+                <th>{{itemPrice}}</th>
+                <th><img [src]='ImageUrl' width="200" height="160"></th>
+                <button (click)="delete()">Delete</button>
+            </tr>
+            <tr>
+                <th>{{itemNo2}}</th>
+                <th>{{itemName2}}</th>
+                <th>{{itemPrice2}} </th>
+                <th><img [src]='ImageUrl2' width="200" height="160"></th>
+            </tr>
+            <tr>
+                <th>{{itemNo3}}</th>
+                <th>{{itemName3}}</th>
+                <th>{{itemPrice3}}</th>
+                <th><img [src]='ImageUrl3' width="200" height="160"></th>
+            </tr>
+            <tr>
+                <th>{{itemNo4}}</th>
+                <th>{{itemName4}}</th>
+                <th>{{itemPrice4}}</th>
+                <th><img [src]='ImageUrl4' width="200" height="160"></th>
+
+            </tr>
+        </table>
+          
+        <br>
+        <p>
+
+
+            <button (click)="display()">DISPLAY</button>
+        </p>
+       
+    </body>
+</html>
